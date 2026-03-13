@@ -1,4 +1,4 @@
-export async function fetchRecentRepos(username = "ProfessorXcommunity") {
+export async function fetchRecentRepos(username = "arijitk-dev") {
   const token = import.meta.env.VITE_GITHUB_TOKEN;
 
   const response = await fetch(
